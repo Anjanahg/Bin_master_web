@@ -21,3 +21,5 @@ Route::post('/signin',[
 ]);
 Route::get('/order/{user}/{cat}', 'OrderController@save');
 Route::get('/showorder/{user}', 'OrderController@show');
+
+

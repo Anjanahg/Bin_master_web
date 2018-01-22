@@ -4,8 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class user extends Model
+class User extends Model
 {
+
     function orderRequest ()
     {
         return $this->hasMany(orderRequest::class );
